@@ -15,3 +15,4 @@
     > git config user.email emailcim
 - az új verzió megszületése:
     > git commit -m "first commit"
+- távoli repo létrehozása(GitHub)
