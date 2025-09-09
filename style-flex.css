@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Story Script", sans-serif;
+}
+
+
+nav{
+    height:60px;
+    background-color:rgb(128, 0, 0);
+}
+
+nav a{
+    height:30px;
+    width:80px;
+    background-color:rgb(75, 0, 3);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    padding:0;
+    align-items: center;
+    height: 60px;
+}
+.content{
+    min-height:calc(100vh - 140px);
+    display: flex;
+}
+main{
+    background-color: rgb(241, 229, 229);
+    flex:3;
+}
+aside{
+    background-color: rgb(230, 204, 205);
+    flex:1;
+}
+footer{
+    height:50px;
+    background-color: rgb(255, 0, 0);
+}
+@media  and(max-width:550px) {
+    .content{
+        flex-direction: column;
+    }
+    main{
+        order: 2;
+    }
+    aside{
+        order:1;
+    }}
+    
